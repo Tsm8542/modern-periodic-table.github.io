@@ -1,0 +1,31 @@
+html{
+    background-color: black;
+    color: rgb(0, 110, 255);
+}
+
+h1{
+    cursor: pointer;
+}
+
+.gp{
+    padding: 10px;
+    border: 1px solid yellow;
+}
+
+#gp,#loc,#his,#pp,#ad,#radius,#ec,#stable,#enthalpy,#radnhf{
+    width: 100%;
+}
+
+
+#gp tr td,#loc tr td,#his tr td,#pp tr td,#ad tr td,#radius tr td,#ec tr td,#stable tr td,#enthalpy tr td,#radnhf tr td{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    width: 50%;
+    border: 1px solid red;
+}
+
+::selection{
+    color: black;
+    background-color: yellow;
+}

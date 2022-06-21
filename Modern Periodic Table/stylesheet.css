@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+    color: rgb(0, 110, 255);
+}
+
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+a{
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+.mpt-table{
+    width: 100%;
+}
+.mpt-table tr td{
+    height: 58px;
+    width: 58px;
+    text-align: center;
+    border: 2px solid rgba(255, 68, 0, 0.800);
+    empty-cells: hide;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a:hover{
+    color: yellow;
+}
+
+#info{
+    border: none;
+    height: 3000px;
+    width: 100%;
+    display: none;
+}
+
+::selection{
+    color: black;
+    background-color: yellow;
+}

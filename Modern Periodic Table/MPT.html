@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<!--Head goes here-->
+<head>
+    <title>Modern Periodic Table</title>
+</head>
+
+<!--Linking external CSS and JS -->
+<link rel="stylesheet" href="stylesheet.css"> 
+<script src="script.js"></script>
+
+<!--Main content starts from here-->
+<body>
+    <header class="header">
+        Modern Periodic Table
+    </header>
+    <!--Select menu for different forms of modern periodic table-->
+    <div class="mpt-canvas">
+        <table class="mpt-table">
+            <!--First Period-->
+            <tr>
+                <td id="hydrogen" title="Hydrogen" onclick="elem(0)"><a href="#gp">H</a></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td id="helium" title="Helium" onclick="elem(1)"><a href="#gp">He</a></td>
+            </tr>
+            <!--Second Period-->
+            <tr>
+                <td title="Lithium" onclick="elem(2)" id="lithium"><a href="#gp">Li</a></td>
+                <td title="Beryllium" onclick="elem(3)" id="beryllium"><a href="#gp">Be</a></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td title="Boron" onclick="elem(4)" id="boron"><a href="#gp">B</a></td>
+                <td title="Carbon" onclick="elem(5)" id="carbon"><a href="#gp">C</a></td>
+                <td title="Nitrogen" onclick="elem(6)" id="nitrogen"><a href="#gp">N</a></td>
+                <td title="Oxygen" onclick="elem(7)" id="oxygen"><a href="#gp">O</a></td>
+                <td title="Fluorine" onclick="elem(8)" id="fluorine"><a href="#gp">F</a></td>
+                <td title="Neon" onclick="elem(9)" id="neon"><a href="#gp">Ne</a></td>
+            </tr>
+            <!--Third Period-->
+            <tr>
+                <td title="Sodium" onclick="elem(10)" id="sodium"><a href="#gp">Na</a></td>
+                <td title="Magnesium" onclick="elem(11)" id="magnesium"><a href="#gp">Mg</a></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td title="Aluminium" onclick="elem(12)" id="aluminium"><a href="#gp">Al</a></td>
+                <td title="Silicon" onclick="elem(13)" id="silicon"><a href="#gp">Si</a></td>
+                <td title="Phosphorus" onclick="elem(14)" id="phosphorus"><a href="#gp">P</a></td>
+                <td title="Sulphur" onclick="elem(15)" id="sulphur"><a href="#gp">S</a></td>
+                <td title="Chlorine" onclick="elem(16)" id="chlorine"><a href="#gp">Cl</a></td>
+                <td title="Argon" onclick="elem(17)" id="argon"><a href="#gp">Ar</a></td>
+            </tr>
+            <!--Fourth Period-->
+            <tr>
+                <td title="Potassium" onclick="elem(18)" id="potassium"><a href="#gp">K</a></td>
+                <td title="Calcium" onclick="elem(19)" id="calcium"><a href="#gp">Ca</a></td>
+                <td title="Scandium" onclick="elem(20)" id="scandium"><a href="#gp">Sc</a></td>
+                <td title="Titanium" onclick="elem(21)" id="titanium"><a href="#gp">Ti</a></td>
+                <td title="Vanadium" onclick="elem(22)" id="vanadium"><a href="#gp">V</a></td>
+                <td title="Chromium" onclick="elem(23)" id="chromium"><a href="#gp">Cr</a></td>
+                <td title="Manganese" onclick="elem(24)" id="manganese"><a href="#gp">Mn</a></td>
+                <td title="Iron" onclick="elem(25)" id="iron"><a href="#gp">Fe</a></td>
+                <td title="Cobalt" onclick="elem(26)" id="cobalt"><a href="#gp">Co</a></td>
+                <td title="Nickel" onclick="elem(27)" id="nickel"><a href="#gp">Ni</a></td>
+                <td title="Copper" onclick="elem(28)" id="copper"><a href="#gp">Cu</a></td>
+                <td title="Zinc" onclick="elem(29)" id="zinc"><a href="#gp">Zn</a></td>
+                <td title="Gallium" onclick="elem(30)" id="gallium"><a href="#gp">Ga</a></td>
+                <td title="Germanium" onclick="elem(31)" id="germanium"><a href="#gp">Ge</a></td>
+                <td title="Arsenic" onclick="elem(32)" id="arsenic"><a href="#gp">As</a></td>
+                <td title="Selenium" onclick="elem(33)" id="selenium"><a href="#gp">Se</a></td>
+                <td title="Bromine" onclick="elem(34)" id="bromine"><a href="#gp">Br</a></td>
+                <td title="Krypton" onclick="elem(35)" id="krypton"><a href="#gp">Kr</a></td>
+            </tr>
+            <!--Fifth Period-->
+            <tr>
+                <td title="Rubidium" onclick="elem(36)" id="rubidium"><a href="#gp">Rb</a></td>
+                <td title="Strontium" onclick="elem(37)" id="strontium"><a href="#gp">Sr</a></td>
+                <td title="Yttrium" onclick="elem(38)" id="yttrium"><a href="#gp">Y</a></td>
+                <td title="Zirconium" onclick="elem(39)" id="zirconium"><a href="#gp">Zr</a></td>
+                <td title="Niobium" onclick="elem(40)" id="niobium"><a href="#gp">Nb</a></td>
+                <td title="Molybdenum" onclick="elem(41)" id="molybdenum"><a href="#gp">Mo</a></td>
+                <td title="Technetium" onclick="elem(42)" id="technetium"><a href="#gp">Tc</a></td>
+                <td title="Ruthenium" onclick="elem(43)" id="ruthenium"><a href="#gp">Ru</a></td>
+                <td title="Rhodium" onclick="elem(44)" id="rhodium"><a href="#gp">Rh</a></td>
+                <td title="Palladium" onclick="elem(45)" id="palladium"><a href="#gp">Pd</a></td>
+                <td title="Silver" onclick="elem(46)" id="silver"><a href="#gp">Ag</a></td>
+                <td title="Cadmium" onclick="elem(47)" id="cadmium"><a href="#gp">Cd</a></td>
+                <td title="Indium" onclick="elem(48)" id="indium"><a href="#gp">In</a></td>
+                <td title="Tin" onclick="elem(49)" id="tin"><a href="#gp">Sn</a></td>
+                <td title="Antimony" onclick="elem(50)" id="antimony"><a href="#gp">Sb</a></td>
+                <td title="Tellurium" onclick="elem(51)" id="tellurium"><a href="#gp">Te</a></td>
+                <td title="Iodine" onclick="elem(52)" id="iodine"><a href="#gp">I</a></td>
+                <td title="Xenon" onclick="elem(53)" id="xenon"><a href="#gp">Xe</a></td>
+            </tr>
+            <!--Sixth Period-->
+            <tr>
+                <td title="Cesium" onclick="elem(54)" id="cesium"><a href="#gp">Cs</a></td>
+                <td title="Barium" onclick="elem(55)" id="barium"><a href="#gp">Ba</a></td>
+                <td title="Lanthanides" id="lanthanides">Lan<br>57-71</td>
+                <td title="Hafnium" onclick="elem(71)" id="hafnium"><a href="#gp">Hf</a></td>
+                <td title="Tantalum" onclick="elem(72)" id="tantalum"><a href="#gp">Ta</a></td>
+                <td title="Tungsten" onclick="elem(73)" id="tungsten"><a href="#gp">W</a></td>
+                <td title="Rhenium" onclick="elem(74)" id="rhenium"><a href="#gp">Re</a></td>
+                <td title="Osmium" onclick="elem(75)" id="osmium"><a href="#gp">Os</a></td>
+                <td title="Iridium" onclick="elem(76)" id="iridium"><a href="#gp">Ir</a></td>
+                <td title="Platinum" onclick="elem(77)" id="platinum"><a href="#gp">Pt</a></td>
+                <td title="Gold" onclick="elem(78)" id="gold"><a href="#gp">Au</a></td>
+                <td title="Mercury" onclick="elem(79)" id="mercury"><a href="#gp">Hg</a></td>
+                <td title="Thallium" onclick="elem(80)" id="thallium"><a href="#gp">Tl</a></td>
+                <td title="Lead" onclick="elem(81)" id="lead"><a href="#gp">Pb</a></td>
+                <td title="Bismuth" onclick="elem(82)" id="bismuth"><a href="#gp">Bi</a></td>
+                <td title="Polonium" onclick="elem(83)" id="polonium"><a href="#gp">Po</a></td>
+                <td title="Astatine" onclick="elem(84)" id="astatine"><a href="#gp">At</a></td>
+                <td title="Radon" onclick="elem(85)" id="radon"><a href="#gp">Rn</a></td>
+            </tr>
+            <!--Seventh Period-->
+            <tr>
+                <td title="Francium" onclick="elem(86)" id="francium"><a href="#gp">Fr</a></td>
+                <td title="Radium" onclick="elem(87)" id="radium"><a href="#gp">Ra</a></td>
+                <td title="Actinides" id="actinides">Act<br>89-103</td>
+                <td title="Rutherfordium" onclick="elem(103)" id="rutherfordium"><a href="#gp">Rf</a></td>
+                <td title="Dubnium" onclick="elem(104)" id="dubnium"><a href="#gp">Db</a></td>
+                <td title="Seaborgium" onclick="elem(105)" id="seaborgium"><a href="#gp">Sg</a></td>
+                <td title="Bohrium" onclick="elem(106)" id="bohrium"><a href="#gp">Bh</a></td>
+                <td title="Hassium" onclick="elem(107)" id="hassium"><a href="#gp">Hs</a></td>
+                <td title="Meitnerium" onclick="elem(108)" id="meitnerium"><a href="#gp">Mt</a></td>
+                <td title="Darmstadtium" onclick="elem(109)" id="darmstadtium"><a href="#gp">Ds</a></td>
+                <td title="Roentgenium" onclick="elem(110)" id="roentgenium"><a href="#gp">Rg</a></td>
+                <td title="Copernicium" onclick="elem(111)" id="copernicium"><a href="#gp">Cn</a></td>
+                <td title="Nihonium" onclick="elem(112)" id="nihonium"><a href="#gp">Nh</a></td>
+                <td title="Flerovium" onclick="elem(113)" id="flerovium"><a href="#gp">Fl</a></td>
+                <td title="Moscovium" onclick="elem(114)" id="moscovium"><a href="#gp">Mc</a></td>
+                <td title="Livermorium" onclick="elem(115)" id="livermorium"><a href="#gp">Lv</a></td>
+                <td title="Tennessine" onclick="elem(116)" id="tennessine"><a href="#gp">Ts</a></td>
+                <td title="Oganesson" onclick="elem(117)" id="oganneson"><a href="#gp">Og</a></td>
+            </tr>
+            <!--Lanthanides-->
+            <tr>
+                <td></td><td></td>
+                <td title="Lanthanum" onclick="elem(56)" id="lanthanum"><a href="#gp">La</a></td>
+                <td title="Cerium" onclick="elem(57)" id="cerium"><a href="#gp">Ce</a></td>
+                <td title="Praseodymium" onclick="elem(58)" id="praseodymium"><a href="#gp">Pr</a></td>
+                <td title="Neodymium" onclick="elem(59)" id="neodymium"><a href="#gp">Nd</a></td>
+                <td title="Promethium" onclick="elem(60)" id="promethium"><a href="#gp">Pm</a></td>
+                <td title="Samarium" onclick="elem(61)" id="samarium"><a href="#gp">Sm</a></td>
+                <td title="Europium" onclick="elem(62)" id="europium"><a href="#gp">Eu</a></td>
+                <td title="Gadolinium" onclick="elem(63)" id="gadolinium"><a href="#gp">Gd</a></td>
+                <td title="Terbium" onclick="elem(64)" id="terbium"><a href="#gp">Tb</a></td>
+                <td title="Dysprosium" onclick="elem(65)" id="dysprosium"><a href="#gp">Dy</a></td>
+                <td title="Holmium" onclick="elem(66)" id="holmium"><a href="#gp">Ho</a></td>
+                <td title="Erbium" onclick="elem(67)" id="erbium"><a href="#gp">Er</a></td>
+                <td title="Thulium" onclick="elem(68)" id="thulium"><a href="#gp">Tm</a></td>
+                <td title="Ytterbium" onclick="elem(69)" id="ytterbium"><a href="#gp">Yb</a></td>
+                <td title="Lutetium" onclick="elem(70)" id="lutetium"><a href="#gp">Lu</a></td>
+                <td></td>
+            </tr>
+            <!--Actinides-->
+            <tr>
+                <td></td><td></td>
+                <td title="Actinium" onclick="elem(88)" id="actinium"><a href="#gp">Ac</a></td>
+                <td title="Thorium" onclick="elem(89)" id="thorium"><a href="#gp">Th</a></td>
+                <td title="Protactinium" onclick="elem(90)" id="protactinium"><a href="#gp">Pa</a></td>
+                <td title="Uranium" onclick="elem(91)" id="uranium"><a href="#gp">U</a></td>
+                <td title="Neptunium" onclick="elem(92)" id="neptunium"><a href="#gp">Np</a></td>
+                <td title="Plutonium" onclick="elem(93)" id="plutonium"><a href="#gp">Pu</a></td>
+                <td title="Americium" onclick="elem(94)" id="americium"><a href="#gp">Am</a></td>
+                <td title="Curium" onclick="elem(95)" id="curium"><a href="#gp">Cm</a></td>
+                <td title="Berkelium" onclick="elem(96)" id="berkelium"><a href="#gp">Bk</a></td>
+                <td title="Californium" onclick="elem(97)" id="californium"><a href="#gp">Cf</a></td>
+                <td title="Einsteinium" onclick="elem(98)" id="einsteinium"><a href="#gp">Es</a></td>
+                <td title="Fermium" onclick="elem(99)" id="fermium"><a href="#gp">Fm</a></td>
+                <td title="Mendelevium" onclick="elem(100)" id="mendelevium"><a href="#gp">Md</a></td>
+                <td title="Nobelium" onclick="elem(101)" id="nobelium"><a href="#gp">No</a></td>
+                <td title="" onclick="elem(102)" id="lawrencium"><a href="#gp">Lr</a></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div id="gp">
+        <iframe id="info" src=""></iframe>
+    </div>
+</body>
+</html>
