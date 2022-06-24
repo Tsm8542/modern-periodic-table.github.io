@@ -6,15 +6,25 @@
 </head>
 
 <!--Linking external CSS and JS -->
-<link rel="stylesheet" href="stylesheet.css"> 
+<link rel="stylesheet" href="stylesheet.css">
+<link id="selcss" rel="stylesheet" href="CSS for select/default.css">
 <script src="script.js"></script>
 
 <!--Main content starts from here-->
 <body>
-    <header class="header">
+    <!--<header class="header">
         Modern Periodic Table
     </header>
     <!--Select menu for different forms of modern periodic table-->
+    <select id="select" onchange="xet()">
+        <option>Default</option>
+        <option>Block-wise</option>
+        <option>Group-wise</option>
+        <option>Period-wise</option>
+        <option>Electronegativity</option>
+        <option>Ionization enthalpy</option>
+        <option>Electron gain enthalpy</option>
+    </select>
     <div class="mpt-canvas">
         <table class="mpt-table">
             <!--First Period-->
@@ -129,7 +139,7 @@
                 <td title="Moscovium" onclick="elem(114)" id="moscovium"><a href="#gp">Mc</a></td>
                 <td title="Livermorium" onclick="elem(115)" id="livermorium"><a href="#gp">Lv</a></td>
                 <td title="Tennessine" onclick="elem(116)" id="tennessine"><a href="#gp">Ts</a></td>
-                <td title="Oganesson" onclick="elem(117)" id="oganneson"><a href="#gp">Og</a></td>
+                <td title="Oganesson" onclick="elem(117)" id="oganesson"><a href="#gp">Og</a></td>
             </tr>
             <!--Lanthanides-->
             <tr>

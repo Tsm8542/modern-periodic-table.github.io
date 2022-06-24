@@ -1,0 +1,26 @@
+a{
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+.mpt-table{
+    width: 100%;
+}
+.mpt-table tr td{
+    height: 58px;
+    width: 58px;
+    text-align: center;
+    border: 2px solid rgba(255, 68, 0, 0.800);
+    empty-cells: hide;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: large;
+}
+a:hover{
+    color: yellow;
+}
+::selection{
+    color: black;
+    background-color: yellow;
+}

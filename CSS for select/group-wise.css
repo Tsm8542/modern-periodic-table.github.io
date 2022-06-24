@@ -1,0 +1,81 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.mpt-table{
+    width: 100%;
+}
+.mpt-table tr td{
+    height: 58px;
+    width: 58px;
+    text-align: center;
+    border: 2px solid blue;
+    empty-cells: hide;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: large;
+}
+a:hover{
+    color: red;
+}
+::selection{
+    color: black;
+    background-color: red;
+}
+#hydrogen,#lithium,#sodium,#potassium,#rubidium,#cesium,#francium{
+    background-color: chartreuse;
+}
+#beryllium,#magnesium,#calcium,#strontium,#barium,#radium{
+    background-color: lightcoral;
+}
+#scandium,#yttrium,#lanthanides,#actinides,#lanthanum,#cerium,#praseodymium,#neodymium,#promethium,#samarium,#europium,#gadolinium,#terbium,#dysprosium,#holmium,#erbium,#thulium,#ytterbium,#lutetium,#actinium,#thorium,#protactinium,#uranium,#neptunium,#plutonium,#americium,#curium,#berkelium,#californium,#einsteinium,#fermium,#mendelevium,#nobelium,#lawrencium{
+    background-color: peachpuff;
+    color: black;
+}
+#titanium,#zirconium,#hafnium,#rutherfordium{
+    background-color: orange;
+}
+#vanadium,#niobium,#tantalum,#dubnium{
+    background-color: lightslategray;
+}
+#chromium,#molybdenum,#tungsten,#seaborgium{
+    background-color: lightgreen;
+}
+#manganese,#technetium,#rhenium,#bohrium{
+    background-color: lightseagreen;
+}
+#iron,#ruthenium,#osmium,#hassium{
+    background-color: lightpink;
+}
+#cobalt,#rhodium,#iridium,#meitnerium{
+    background-color: peru;
+}
+#nickel,#palladium,#platinum,#darmstadtium{
+    background-color: seagreen;
+}
+#copper,#silver,#gold,#roentgenium{
+    background-color: yellow;
+}
+#zinc,#cadmium,#mercury,#copernicium{
+    background-color: turquoise;
+}
+#boron,#aluminium,#gallium,#indium,#thallium,#nihonium{
+    background-color: greenyellow;
+}
+#carbon,#silicon,#germanium,#tin,#lead,#flerovium{
+    background-color: deeppink;
+}
+#nitrogen,#phosphorus,#arsenic,#antimony,#bismuth,#moscovium{
+    background-color: darkkhaki;
+}
+#oxygen,#sulphur,#selenium,#tellurium,#polonium,#livermorium{
+    background-color: papayawhip;
+}
+#fluorine,#chlorine,#bromine,#iodine,#astatine,#tennessine{
+    background-color: darkcyan;
+}
+#helium,#neon,#argon,#krypton,#xenon,#radon,#oganesson{
+    background-color: indianred;
+}

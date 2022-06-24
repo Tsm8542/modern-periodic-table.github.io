@@ -1,0 +1,44 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.mpt-table{
+    width: 100%;
+}
+.mpt-table tr td{
+    height: 58px;
+    width: 58px;
+    text-align: center;
+    border: 2px solid blue;
+    empty-cells: hide;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: large;
+}
+a:hover{
+    color: red;
+}
+::selection{
+    color: yellow;
+    background-color: red;
+}
+
+
+#hydrogen,#helium,#lithium,#beryllium,#sodium,#magnesium,#potassium,#calcium,#rubidium,#strontium,#cesium,#barium,#francium,#radium{
+    background-color: yellow;
+}
+
+#boron,#carbon,#nitrogen,#oxygen,#fluorine,#neon,#aluminium,#silicon,#phosphorus,#sulphur,#chlorine,#argon,#gallium,#germanium,#arsenic,#selenium,#bromine,#krypton,#indium,#tin,#antimony,#tellurium,#iodine,#xenon,#thallium,#lead,#bismuth,#polonium,#astatine,#radon,#nihonium,#flerovium,#moscovium,#livermorium,#tennessine,#oganesson{
+    background-color: lightblue;
+}
+
+#scandium,#titanium,#vanadium,#chromium,#manganese,#iron,#cobalt,#nickel,#copper,#zinc,#yttrium,#zirconium,#niobium,#molybdenum,#technetium,#ruthenium,#rhodium,#palladium,#silver,#cadmium,#hafnium,#tantalum,#tungsten,#rhenium,#osmium,#iridium,#platinum,#gold,#mercury,#rutherfordium,#dubnium,#seaborgium,#bohrium,#hassium,#meitnerium,#darmstadtium,#roentgenium,#copernicium{
+    background-color: lightcoral;
+}
+
+#lanthanides,#actinides,#lanthanum,#cerium,#praseodymium,#neodymium,#promethium,#samarium,#europium,#gadolinium,#terbium,#dysprosium,#holmium,#erbium,#thulium,#ytterbium,#lutetium,#actinium,#thorium,#protactinium,#uranium,#neptunium,#plutonium,#americium,#curium,#berkelium,#californium,#einsteinium,#fermium,#mendelevium,#nobelium,#lawrencium{
+    background-color: lightgreen;
+    color: black;
+}
