@@ -15,7 +15,6 @@ a{
     background-color: black;
     font-weight: 700;
     cursor: pointer;
-    font-size: large;
 }
 a:hover{
     color: yellow;

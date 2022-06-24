@@ -2,6 +2,13 @@ html{
     background-color: black;
     color: rgb(0, 110, 255);
 }
+#select{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: yellow;
+    color: blue;
+}
 #info{
     border: none;
     height: 3000px;
