@@ -8,10 +8,28 @@ html{
     display: block;
     background-color: yellow;
     color: blue;
+    font-size: x-large;
+    border: 2px solid red;
 }
 #info{
     border: none;
     height: 3000px;
     width: 100%;
     display: none;
+}
+#menu ul li a:hover{
+    color: yellow;
+}
+#menu{
+    border: 1px solid yellow;
+    font-size: larger;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+#menu ul li a{
+    color: rgb(0, 110, 255);
+}
+#menu ul li{
+    display: inline;
+    padding: 5px;
 }

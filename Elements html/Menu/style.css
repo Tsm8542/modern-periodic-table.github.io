@@ -1,0 +1,14 @@
+html{
+    background-color: black;
+    color: rgb(0,110,255);
+    font-size: larger;
+    text-align: center;
+}
+table{
+    border: 1px solid yellow;
+    width: 100%;
+}
+td,th{
+    border: 1px solid red;
+    padding: 5px;
+}
