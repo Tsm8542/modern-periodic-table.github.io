@@ -1,0 +1,248 @@
+# Modern Periodic Table
+
+## Repository details:
+- This repository consists of a webpage that gives information about the modern periodic table.
+- Modern periodic table is an important part of the branch of chemistry in science
+
+## Aim:
+- The project aims at providing general details of an element in the modern periodic table that exists until now.
+
+## Repository directory:
+- modern-periodic-table.github.io
+    - CSS for select
+        - block-wise.css
+        - default.css
+        - group-wise.css
+        - period-wise.css
+    - Elements html
+        - Menu
+            - atomic_mass.html
+            - atomic_radius.html
+            - boiling_point.html
+            - category.html
+            - condensed_electronic_configuration.html
+            - density.html
+            - discoverer.html
+            - electron_gain_enthalpy.html
+            - electronegativity.html
+            - ionic_radius.html
+            - ionization_enthalpy.html
+            - isotopes.html
+            - location.html
+            - melting_point.html
+            - natural_occuring_state.html
+            - nearest_inert_gas.html
+            - orbital_electronic_configuration.html
+            - oxidation_state.html
+            - quantum_electronic_configuration.html
+            - style.css
+            - valency.html
+            - year_of_discovery.html
+        - Period 1
+            - 1.hydrogen.html
+            - 2.helium.html
+            - script.js
+            - style.css
+        - Period 2
+            - 3.lithium.html
+            - 4.beryllium.html
+            - 5.boron.html
+            - 6.carbon.html
+            - 7.nitrogen.html
+            - 8.oxygen.html
+            - 9.fluorine.html
+            - 10.neon.html
+            - script.js
+            - style.css
+        - Period 3
+            - 11.sodium.html
+            - 12.magnesium.html
+            - 13.aluminium.html
+            - 14.silicon.html
+            - 15.phosphorus.html
+            - 16.sulphur.html
+            - 17.chlorine.html
+            - 18.argon.html
+            - script.js
+            - style.css
+        - Period 4
+            - 19.potassium.html
+            - 20.calcium.html
+            - 21.scandium.html
+            - 22.titanium.html
+            - 23.vanadium.html
+            - 24.chromium.html
+            - 25.manganese.html
+            - 26.iron.html
+            - 27.cobalt.html
+            - 28.nickel.html
+            - 29.copper.html
+            - 30.zinc.html
+            - 31.gallium.html
+            - 32.germanium.html
+            - 33.arsenic.html
+            - 34.selenium.html
+            - 35.bromine.html
+            - 36.krypton.html
+            - script.js
+            - style.css
+        - Period 5
+            - 37.rubidium.html
+            - 38.strontium.html
+            - 39.yttrium.html
+            - 40.zirconium.html
+            - 41.niobium.html
+            - 42.molybdenum.html
+            - 43.technetium.html
+            - 44.ruthenium.html
+            - 45.rhodium.html
+            - 46.palladium.html
+            - 47.silver.html
+            - 48.cadmium.html
+            - 49.indium.html
+            - 50.tin.html
+            - 51.antimony.html
+            - 52.tellurium.html
+            - 53.iodine.html
+            - 54.xenon.html
+            - script.js
+            - style.css
+        - Period 6
+            - 55.cesium.html
+            - 56.barium.html
+            - 57.lanthanum.html
+            - 58.cerium.html
+            - 59.praseodymium.html
+            - 60.neodymium.html
+            - 61.promethium.html
+            - 62.samarium.html
+            - 63.europium.html
+            - 64.gadolinium.html
+            - 65.terbium.html
+            - 66.dysprosium.html
+            - 67.holmium.html
+            - 68.erbium.html
+            - 69.thulium.html
+            - 70.ytterbium.html
+            - 71.lutetium.html
+            - 72.hafnium.html
+            - 73.tantalum.html
+            - 74.tungsten.html
+            - 75.rhenium.html
+            - 76.osmium.html
+            - 77.iridium.html
+            - 78.platinum.html
+            - 79.gold.html
+            - 80.mercury.html
+            - 81.thallium.html
+            - 82.lead.html
+            - 83.bismuth.html
+            - 84.polonium.html
+            - 85.astatine.html
+            - 86.radon.html
+            - script.js
+            - style.css
+        - Period 7
+            - 87.francium.html
+            - 88.radium.html
+            - 89.actinium.html
+            - 90.thorium.html
+            - 91.protactinium.html
+            - 92.uranium.html
+            - 93.neptunium.html
+            - 94.plutonium.html
+            - 95.americium.html
+            - 96.curium.html
+            - 97.berkelium.html
+            - 98.californium.html
+            - 99.einsteinium.html
+            - 100.fermium.html
+            - 101.mendelevium.html
+            - 102.nobelium.html
+            - 103.lawrencium.html
+            - 104.rutherfordium.html
+            - 105.dubnium.html
+            - 106.seaborgium.html
+            - 107.bohrium.html
+            - 108.hassium.html
+            - 109.meitnerium.html
+            - 110.darmstadtium.html
+            - 111.roentgenium.html
+            - 112.copernicium.html
+            - 113.nihonium.html
+            - 114.flerovium.html
+            - 115.moscovium.html
+            - 116.livermorium.html
+            - 117.tennessine.html
+            - 118.oganesson.html
+            - script.js
+            - style.css
+    - index.html
+    - README.md
+    - script.js
+    - stylesheet.css
+
+# About the webpage:
+Upon loading of the main page:
+- select option in the top mid part of the web page
+- modern periodic table followed by it
+- menu bar containing hyperlinks
+
+# Usage & descriptions:
+- Select:
+    - This will allow the user to change the style of the modern periodic table with respect to **group**, **period**, **block** and **default** styles upon selected option.
+    - Also allows to user to display **atomic mass**, **electronegativity**, **ionization enthalpy** and **electron gain enthalpy** upon selected option.
+- Modern Periodic Table:
+    - All elements are displayed using their respected symbols.
+    - Upon hovering an element its respective name would be displayed as title.
+    - Upon clicking a cell, the information of the respected element will be displayed below in an **iframe** tag(inline frame).
+- Menu:
+    - Menu contains all the links of the properties that are taken into consideration while making of this project.
+    - Upon clicking the hyperlinks, user will be redirected to the page showing a specific property and its value of all the elements.
+
+# Information of a single element(onclick event):
+- All elements will display their properties and values such that the properties are the same for all elements and values differ from element to element.
+- The **src** attribute of the **iframe** tag changes upon clicking the hyperlinks or the cell
+
+# Document form of any element:
+The document is tabulated in the following manner:
+- General Properties
+    - Name
+    - Symbol
+    - Natural Occuring State
+    - Category
+- Location
+    - Group
+    - Period
+    - Block
+- History
+    - Year of Discovery
+    - Discoverer
+- Physical Properties
+    - Boiling Point
+    - Melting Point
+    - Density
+- Atomic Details
+    - Atomic Number
+    - Atomic Mass Number
+    - Electronegativity
+- Radius(in picometers-pm)
+    - Atomic Radius
+    - Ionic Radius
+- Electronic Configuration
+    - Condensed Electronic Configuration
+    - Quantum Electronic Configuration
+    - Orbital Electronic Configuration
+- Stability
+    - Nearest Inert Gas
+    - Valency
+    - Oxidation State
+- Enthalpies
+    - Ionization Enthalpy
+    - Electron Gain Enthalpy(Electron Affinity)
+- Radioactivity & Half-life
+    - Radioactive
+    - Isotopes
+    - Half-life
+
+# PLEASE NOTE THAT THIS REPOSITORY IS CREATED FOR PERSONAL USE AND PART OF A PERSONAL PROJECT...HOWEVER IT IS NOT BEING RESTRICTED FOR ANYONE FROM USING IT
