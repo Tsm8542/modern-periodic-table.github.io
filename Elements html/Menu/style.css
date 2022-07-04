@@ -1,14 +1,14 @@
 html{
     background-color: black;
-    color: rgb(0,110,255);
+    color: aqua;
     font-size: larger;
     text-align: center;
 }
 table{
-    border: 1px solid yellow;
+    border: 1px solid aqua;
     width: 100%;
 }
 td,th{
-    border: 1px solid red;
+    border: 1px solid aqua;
     padding: 5px;
 }

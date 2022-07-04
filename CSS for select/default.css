@@ -1,5 +1,5 @@
 a{
-    color: rgb(0, 110, 255);
+    color: aqua;
     text-decoration: none;
 }
 .mpt-table{
@@ -9,7 +9,7 @@ a{
     height: 58px;
     width: 58px;
     text-align: center;
-    border: 2px solid rgba(255, 68, 0, 0.800);
+    border: 2px solid aqua;
     empty-cells: hide;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -17,7 +17,7 @@ a{
     cursor: pointer;
 }
 a:hover{
-    color: yellow;
+    color: red;
 }
 ::selection{
     color: black;

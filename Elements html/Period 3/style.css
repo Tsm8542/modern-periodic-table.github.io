@@ -1,6 +1,6 @@
 html{
-    background-color: black;
-    color: rgb(0, 110, 255);
+    background-color: rgb(24,48,48);
+    color: aqua;
 }
 
 h1{
@@ -9,7 +9,7 @@ h1{
 
 .gp{
     padding: 10px;
-    border: 1px solid yellow;
+    border: 1px solid red;
 }
 
 #gp,#loc,#his,#pp,#ad,#radius,#ec,#stable,#enthalpy,#radnhf{
@@ -22,7 +22,7 @@ h1{
     font-size: x-large;
     font-weight: 500;
     width: 50%;
-    border: 1px solid red;
+    border: 1px solid aqua;
 }
 
 ::selection{

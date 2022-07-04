@@ -1,15 +1,15 @@
 html{
     background-color: black;
-    color: rgb(0, 110, 255);
+    color: aqua;
 }
 #select{
     margin-right: auto;
     margin-left: auto;
     display: block;
-    background-color: yellow;
-    color: blue;
+    background-color: black;
+    color: aqua;
     font-size: x-large;
-    border: 2px solid red;
+    border: 2px solid aqua;
 }
 #info{
     border: none;
@@ -21,17 +21,17 @@ html{
     color: red;
 }
 #menu{
-    background-color: blue;
-    border: 1px solid yellow;
+    background-color: rgb(24, 48, 48);
+    border: 2px solid aqua;
     font-size: larger;
     white-space: nowrap;
     overflow-x: scroll;
 }
 #menu ul li a{
-    color: black;
+    color: white;
 }
 #menu ul li{
-    background-color: yellow;
+    border: 2px solid aqua;
     display: inline;
     padding: 5px;
 }
